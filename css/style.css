@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    height: 100%;
+    background: url(/img/body.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 2%;
+    font-weight: 300;
+    font-style: 16px;
+    color: #555;
+    -webkit-overflow-scrolling:touch;
+}
+content{
+    margin-bottom: 20px;
+}
+.centered{
+    text-align: center;
+}
+
+.col-md-3{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: auto;
+}
+
+.col-md-9 hr{
+    height: 2px;
+    margin: 40px 0;
+    background: #777;
+    border-radius: 50%;
+}
+
+.navbar li a{
+   color: #ddd;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.navbar li a:hover{
+    font-weight: 600;
+    background: rgba( 191, 191, 191, 0.3 );
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: #ddd;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+img{
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.btn{
+     width: 20%;
+    margin-right: 50px;
+}
+
+.btn:last-child{
+    margin-right: 0;
+}
+
+.btns{
+    margin-bottom: 40px;
+}
+
+.table{
+    background: #999;
+    display: none;
+    opacity: 0.8;
+    color: black;
+}
+
+.header th{
+    text-align: center;
+}
+
+adress a i{
+    color: #777;
+    font-size: 30px;
+    padding: 20px;
+}
+
+adress a i:hover{
+    color: #444;
+}
+.jumbotron:last-child{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
